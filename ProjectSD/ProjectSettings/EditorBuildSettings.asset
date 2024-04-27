@@ -6,21 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/menu.unity
+    path: Assets/MainMenu/menu.unity
     guid: bd874158f7ca93a48af0dea41b952cfa
   - enabled: 1
-    path: Assets/Game1.unity
+    path: Assets/FlappyBird/Game1.unity
     guid: 63f6a16e01488ad40a37712bd73e0977
   - enabled: 1
-    path: Assets/Game2.unity
+    path: Assets/Game2/Game2.unity
     guid: 33d3b16ea7683f34b8d7d1e5bc32176f
   - enabled: 1
-    path: Assets/Game3.unity
+    path: Assets/Game3/Game3.unity
     guid: 5dbdab7a71ca5c9448124b259937f8f9
   - enabled: 1
-    path: Assets/Game4.unity
+    path: Assets/Game4/Game4.unity
     guid: f36d80ef8e3f8f34ebfb65c996561c50
   - enabled: 1
-    path: Assets/Game5.unity
+    path: Assets/Game5/Game5.unity
     guid: f12bbce617140dd458f2923e93da393c
   m_configObjects: {}
