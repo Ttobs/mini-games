@@ -40,6 +40,7 @@ public class AllScrips : MonoBehaviour
 
                     case "Scissors":
                         Result.text = "Lose";
+                        scr = 0;
                         Score.text = "0";
                         break;
                 }
@@ -52,6 +53,7 @@ public class AllScrips : MonoBehaviour
                 {
                     case "Rock":
                         Result.text = "Lose";
+                        scr = 0;
                         Score.text = "0";
                         break;
 
@@ -80,6 +82,7 @@ public class AllScrips : MonoBehaviour
 
                     case "Paper":
                         Result.text = "Lose";
+                        scr = 0;
                         Score.text = "0";
                         break;
 
