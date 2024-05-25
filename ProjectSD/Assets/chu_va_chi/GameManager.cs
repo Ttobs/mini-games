@@ -9,6 +9,7 @@ public class AllScrips : MonoBehaviour
     public void Exit()
     {
         SceneManager.LoadScene(2);
+        Debug.Log("test");
     }
 
     public Text Result;
