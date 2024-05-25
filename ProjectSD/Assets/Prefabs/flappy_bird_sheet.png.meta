@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -86,6 +86,19 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -142,8 +155,8 @@ TextureImporter:
       name: TubeUp
       rect:
         serializedVersion: 2
-        x: 56
-        y: 29
+        x: 0
+        y: 10
         width: 26
         height: 160
       alignment: 0
@@ -163,8 +176,8 @@ TextureImporter:
       name: TubeDown
       rect:
         serializedVersion: 2
-        x: 84
-        y: 29
+        x: 28
+        y: 10
         width: 26
         height: 160
       alignment: 0
@@ -184,8 +197,8 @@ TextureImporter:
       name: Bird1
       rect:
         serializedVersion: 2
-        x: 3
-        y: 9
+        x: 2
+        y: 178
         width: 17
         height: 12
       alignment: 0
@@ -205,8 +218,8 @@ TextureImporter:
       name: Bird2
       rect:
         serializedVersion: 2
-        x: 31
-        y: 9
+        x: 25
+        y: 178
         width: 17
         height: 12
       alignment: 0
@@ -226,12 +239,12 @@ TextureImporter:
       name: Bird3
       rect:
         serializedVersion: 2
-        x: 59
-        y: 9
+        x: 48
+        y: 178
         width: 17
         height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5399112, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -294,7 +307,7 @@ TextureImporter:
         width: 96
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -302,6 +315,69 @@ TextureImporter:
       bones: []
       spriteID: aa618dacbe37bad4b9832592acefbe0e
       internalID: -1592728036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonenu
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 43
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165691c9a033bd24d94556b225104ef8
+      internalID: -1562143556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonPla
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a9cf8c03902dc4da374aae4d511045
+      internalID: 1088627283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOve
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 106
+        width: 96
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698e0424b4356f84da1cdadc0344f0d6
+      internalID: 1877840636
       vertices: []
       indices: 
       edges: []
@@ -321,12 +397,17 @@ TextureImporter:
       Bird1: 1066244227
       Bird2: 1380764777
       Bird3: -539253424
+      GameOve: 1877840636
       GameOver: -1592728036
       Ground: -266441747
       TubeDown: -43900091
       TubeUp: -1460743603
       buttonMenu: 2049176413
+      buttonPla: 1088627283
       buttonPlay: -584398494
+      buttonenu: -1562143556
+      flappy_bird_sheet_0: -15016654
+      gameOver: 1876802944
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
